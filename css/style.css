@@ -1,0 +1,41 @@
+body #root > div {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+body #root > div form {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 24px;
+}
+
+body #root > div form label {
+  padding: 0 10px;
+}
+
+body #root > div form input[type="text"] {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  padding: 0 5px;
+}
+
+body #root > div > div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+body #root > div > div > div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  margin: 10px;
+  width: 150px;
+}
+/*# sourceMappingURL=style.css.map */
